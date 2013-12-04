@@ -1,0 +1,1 @@
+//web-inf folder mandate for web applications.
