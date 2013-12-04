@@ -13,6 +13,26 @@
         <link rel="stylesheet" type="text/css" href="login.css.css">
     </head>
     <body>
-        
+        <div id="space">
+            
+        </div>
+        <div align="center">    
+    <form id="contactform" class="rounded" method="post" action="">
+ 
+    <div class="field">
+    <label for="username">Name:</label>
+    <input type="text" class="input" name="name" id="name" value="your email id" />
+    <p class="hint">Enter your Email.</p>
+    </div>
+        <p>                </p>
+    <div class="field">
+    <label for="password">password:</label>
+    <input type="password" class="input" name="email" id="email" value="password"/>
+    <p class="hint">Enter your password.</p>
+    </div>
+ 
+    <input type="submit" name="Submit"  class="button" value="Login" />
+        </div>
+    </form>
     </body>
 </html>
