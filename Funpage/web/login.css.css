@@ -1,0 +1,16 @@
+/* 
+    Document   : login.css
+    Created on : Dec 4, 2013, 8:14:55 AM
+    Author     : sathyanarrayananstark
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+     }
+body
+{
+background-color:#000000; 
+background-image: url('Blue-Abstract-Wallpaper.jpg');
+}
