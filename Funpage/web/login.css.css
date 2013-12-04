@@ -32,7 +32,7 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
  
     width: 500px;
     padding: 20px;
-    background: #f0f0f0;
+    background:url('Images/download.jpg');
     overflow:auto;
  
     /* Border style */
@@ -48,6 +48,7 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
  
     }
     label {
+    color: white;
     font-family: Arial, Verdana;
     text-shadow: 2px 2px 2px #ccc;
     display: block;
