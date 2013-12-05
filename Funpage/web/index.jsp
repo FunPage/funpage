@@ -14,7 +14,9 @@
     </head>
     <body>
         <div id="space">
-            <h3><a href ="#signup" id="signup">signup</a>
+            <div id="panel" class="panel">
+                
+            </div>
         </div>
             
         <div align="center">    
@@ -36,5 +38,8 @@
     <input type="submit" name="Submit"  class="button" value="Login" />
         </div>
     </form>
+            <div id="footer" style="float: down;color: whitesmoke;">
+                <center>copyright to SGC technologies</center>
+            </div>
     </body>
 </html>

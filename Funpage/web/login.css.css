@@ -32,7 +32,7 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
  
     width: 500px;
     padding: 20px;
-    background:url('Images/download.jpg');
+    background:url('Images/world.gif');
     overflow:auto;
  
     /* Border style */
@@ -118,12 +118,17 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
     }
     #space
     {
-        width:1000px;
+        width:1260px;
         height:295px;
-      
+    }
+    #panel
+    {
+        width:1260px;
+        height:60px;
+        background: url('Images/Pitch Blue.jpg');
     }
    #signup:visited,#signup:link
-    {
+    {   float: right;
         display:block;
         width:120px;
         font-weight:bold;
@@ -137,5 +142,5 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
     .rellink:link,.rellink:visited
     {
        color: white;
-       text-shadow: 0 -1px 1px #64799e;
+       text-shadow: 0 -1px 1px #64799e;  
     }
