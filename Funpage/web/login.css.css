@@ -122,3 +122,20 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
         height:295px;
       
     }
+   #signup:visited,#signup:link
+    {
+        display:block;
+        width:120px;
+        font-weight:bold;
+        color:#FFFFFF;
+        background-color:blue;
+        text-align:center;
+        padding:4px;
+        text-decoration:none;
+        text-transform:uppercase;
+    }
+    .rellink:link,.rellink:visited
+    {
+       color: white;
+       text-shadow: 0 -1px 1px #64799e;
+    }

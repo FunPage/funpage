@@ -14,7 +14,7 @@
     </head>
     <body>
         <div id="space">
-            
+            <h3><a href ="#signup" id="signup">signup</a>
         </div>
             
         <div align="center">    
@@ -31,7 +31,8 @@
     <input type="password" class="input" name="email" id="email" value="password"/>
     <p class="hint">Enter your password.</p>
     </div>
- 
+        <p> </p>
+        <h7><a href="#forget" class="rellink"><center>forgotten password ?</center></a></h7>
     <input type="submit" name="Submit"  class="button" value="Login" />
         </div>
     </form>
