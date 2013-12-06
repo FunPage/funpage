@@ -19,9 +19,31 @@ function ResizeElement(Element)
 {
     var divs=document.getElementById(Element);
     divs.style.width=(window.innerWidth);
-    divs.style.heigth=((10/100)* window.innerHeight);
+    divs.style.heigth=((40/100)* window.innerHeight);
 }
-function WinAlert()
+function WinAlert(hello)
 {
-    alert("hello world");
+    alert(hello);
+}
+function validate(entered,actual)
+{
+    if(entered == actual)
+        {
+            return true;
+        }
+     else
+         {
+             return false;
+         }
+}
+function resize_as_sqr_element(percent,id)
+{
+    var width=window.innerWidth;
+    var height=window.innerHeight;
+    document.getElementById(id).style.width=calculate(percent,width);
+    document.getElementById(id).style.height=calculate(percent,height);
+}
+function calculate(percent,number)
+{
+    return((percent/100)*number);
 }

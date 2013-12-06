@@ -120,10 +120,9 @@ background-image: url('Images/Blue-Abstract-Wallpaper.jpg');
         width:1260px;
         height:295px;
     }
-    #panel
+   #panel
     {
-        width:1260px;
-        height:60px;
+       
         background: url('Images/Pitch Blue.jpg');
     }
    #signup:visited,#signup:link
