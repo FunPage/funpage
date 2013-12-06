@@ -11,8 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Fun Login</title>
         <link rel="stylesheet" type="text/css" href="login.css.css">
+        <script src="Scripts/Essentials.js.js"></script>
     </head>
-    <body>
+    <body onload="ResizeCheck()">
         <div id="space">
             <div id="panel" class="panel">
                 
