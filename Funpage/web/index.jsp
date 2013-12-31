@@ -13,9 +13,9 @@
         <link rel="stylesheet" type="text/css" href="login.css.css">
         <script src="Scripts/Essentials.js.js"></script>
     </head>
-    <body onload="ResizeElement('panel')">
+    <body onload="">
         <div id="space">
-            <div id="panel" class="panel">
+            <div id="panel">
                 
             </div>
         </div>
