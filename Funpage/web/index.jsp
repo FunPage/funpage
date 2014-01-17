@@ -1,30 +1,23 @@
-<%-- 
-    Document   : index
-    Created on : Dec 4, 2013, 8:13:37 AM
-    Author     : sathyanarrayananstark
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Fun Login</title>
         <link rel="stylesheet" type="text/css" href="login.css.css">
-        <script src="Scripts/Essentials.js.js"></script>
+        <script src="Scripts/essential.js"></script>
     </head>
-    <body onload="">
+    <body onload="displaydashboard()">
         <div id="space">
-            <div id="panel">
-                
-            </div>
-        </div>
+         <div id="panel">
+       <div id="dashboard"><div><a href=signup.html>signup</a></div><div><center><h1 id="time"></h1></center></div></div>
+         </div>
+         </div>
             
         <div align="center">    
-    <form id="contactform" class="rounded" method="post" action="">
+    <form id="contactform" class="rounded" method="get" action="welcome">
  
     <div class="field">
-    <label for="username">Name:</label>
+    <label for="username">Username:</label>
     <input type="text" class="input" name="name" id="name" value="your email id" />
     <p class="hint">Enter your Email.</p>
     </div>
